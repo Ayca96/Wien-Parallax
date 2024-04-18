@@ -1,0 +1,95 @@
+body,html{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.audio{
+
+}
+
+
+/* Background images */
+
+.common{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+
+.page1{
+  background-image: url(./images/hofburgg.jpeg);
+  height: 100%;
+}
+
+.page2{
+  background-image: url(./images/Laxenburg-32.jpg);
+  height: 80%;
+}
+
+.page3{
+  background-image: url(./images/Wien_-_Schloss_Belvedere\,_oberes_\(1\).jpeg);
+  height: 80%;
+
+}
+
+.page4{
+  background-image: url(./images/8489407-schloss-schoenbrunn-original.jpg);
+  height: 100%;
+}
+
+.container{
+  text-align: center;
+  position: relative;
+  top: 50%;
+
+}
+
+.header{
+  font-size: 3rem;
+  font-family: "Sedan", serif;
+  font-weight: 700;
+  font-style: normal;
+  border-top-left-radius : 1rem;
+  border-bottom-right-radius: 1rem;
+  outline: 0.5rem inset rgb(143, 36, 9);
+  outline-offset: 0.6rem;
+  padding: 2rem;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.3) ;
+  color:rgb(250, 247, 247);
+  letter-spacing: 0.6rem;
+  
+}
+
+.metin{
+
+text-align: center; font-family: "Sedan", serif;
+font-weight: 400;
+font-style: normal;
+word-spacing: 0.3rem;
+
+}
+
+.baslik{
+  color: rgb(61, 95, 95);
+}
+
+.baslik:hover{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.links{
+  color: blueviolet;
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(19, 104, 8);
+  text-decoration: underline;
+  
+}
