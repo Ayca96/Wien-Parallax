@@ -1,4 +1,4 @@
-# Project : Animation
+# Project : Parallax
 
 ### Expected Outcome
 
